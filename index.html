@@ -1,0 +1,2012 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/hover-min.css">
+  <link rel="icon" href="./img/Hackathon Logo.png">
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Access Denied</title>
+  <link rel="stylesheet" href="css/imagehover.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .modal-content{
+      width: 1000px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+  </div>
+  <!-- /Preloader -->
+
+  <div id="progressbar"></div>
+  <div id="scrollpath"></div>
+
+
+
+  <!-- Header Area Start -->
+  <header class="header-area">
+    <div class="classy-nav-container breakpoint-off">
+      <div class="container">
+        <!-- Classy Menu -->
+
+        <nav class="classy-navbar justify-content-between" id="conferNav">
+
+          <!-- Logo -->
+           <img src="./img/ietee.png" alt="logo iete" style="width: 60px;height: 60px;float: left;">
+          <!-- Navbar Toggler -->
+          <div class="classy-navbar-toggler">
+            <span class="navbarToggler"><span></span><span></span><span></span></span>
+          </div>
+
+          <!-- Menu -->
+          <div class="classy-menu">
+            <!-- Menu Close Button -->
+            <div class="classycloseIcon">
+              <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+            </div>
+            <!-- Nav Start -->
+            <div class="classynav">
+              <ul id="nav">
+                <li><a href="#tracks">Tracks</a></li>               
+                <li><a href="#Itinerary">Itinerary</a></li>
+                <li><a href="./commingSoon.html">Prizes</a></li>                            
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <!--<li><a href="#codeofconduct">Code of conduct</a></li> -->
+                                          </ul>
+              <!-- Get Tickets Button -->
+            <a class="btn confer-btn mt-3 mt-lg-0 ml-lg-5" href="https://accessdenied.devfolio.co/"  class="btn confer-btn" style="color: white; font-size: 12px"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:4px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</a>
+            <!-- Nav End -->
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- register modal -->
+  <!-- Modal -->
+  <div class=" modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalTitle" aria-hidden="true">
+    <div class=" modal-dialog modal-dialog-centered" role="document">
+      <div class="registerModal modal-content">
+       
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSddc_zq1TTW9EH59n2ft-DjEhirKg4eItU-xOgp2O8OYgZ26Q/viewform?embedded=true"
+          width="640" height="1570" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        
+      </div>
+    </div>
+  </div>
+<!-- Modal -->
+
+
+
+  
+  <!-- Header Area End -->
+
+  <!-- Welcome Area Start -->
+  <section class="welcome-area">
+    <div class="welcome-slides owl-carousel">
+      <!-- Single Slide -->
+      <div class="single-welcome-slide bg-img bg-overlay jarallax" style="background-image: url(./img/back.png);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+           
+            <!-- Welcome Text -->
+            <div class="col-12">
+              
+              <div class="welcome-text text-right">
+                <h2 data-animation="fadeInUp" data-delay="300ms">Access <br>Denied</h2>
+                <h6 data-animation="fadeInUp" data-delay="500ms">Virtual Hackathon</h6>
+                <div class="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
+               
+                  <br>
+                  <a class="btn confer-btn mt-3 mt-lg-0 " href=""  class="btn confer-btn" style="color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                    <path d="M6.552 6.712c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888.008-.488-.36-.888-.816-.888zm2.92 0c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888s-.36-.888-.816-.888z"/>
+                    <path d="M13.36 0H2.64C1.736 0 1 .736 1 1.648v10.816c0 .912.736 1.648 1.64 1.648h9.072l-.424-1.48 1.024.952.968.896L15 16V1.648C15 .736 14.264 0 13.36 0zm-3.088 10.448s-.288-.344-.528-.648c1.048-.296 1.448-.952 1.448-.952-.328.216-.64.368-.92.472-.4.168-.784.28-1.16.344a5.604 5.604 0 0 1-2.072-.008 6.716 6.716 0 0 1-1.176-.344 4.688 4.688 0 0 1-.584-.272c-.024-.016-.048-.024-.072-.04-.016-.008-.024-.016-.032-.024-.144-.08-.224-.136-.224-.136s.384.64 1.4.944c-.24.304-.536.664-.536.664-1.768-.056-2.44-1.216-2.44-1.216 0-2.576 1.152-4.664 1.152-4.664 1.152-.864 2.248-.84 2.248-.84l.08.096c-1.44.416-2.104 1.048-2.104 1.048s.176-.096.472-.232c.856-.376 1.536-.48 1.816-.504.048-.008.088-.016.136-.016a6.521 6.521 0 0 1 4.024.752s-.632-.6-1.992-1.016l.112-.128s1.096-.024 2.248.84c0 0 1.152 2.088 1.152 4.664 0 0-.68 1.16-2.448 1.216z"/>
+                  </svg>  Join Discord</a>
+                  <a class="btn confer-btn mt-3 mt-lg-0 " href="https://accessdenied.devfolio.co/"  class="btn confer-btn" style="color: white;"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:4px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</a>
+                  
+                 
+
+                  <br>
+                  <a href="https://ieteisfvit.typeform.com/to/bDwnV7Ju"  class="btn confer-btn">Be a campus ambassador</a>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single Slide -->
+      
+      </div>
+    </div>
+
+    <!-- Scroll Icon -->
+    <div class="icon-scroll" id="scrollDown"></div>
+  </section>
+  <!-- Welcome Area End -->
+<div class="col-lg-12">
+  <div class="digits"></div>
+
+</div>
+
+  <!-- About Us And Countdown Area Start -->
+  <section class="about-us-countdown-area section-padding-100-0" id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- About Content -->
+        <div class="col-12 col-md-6">
+          <div class="about-content-text mb-80">
+            <h6 class="wow fadeInUp" data-wow-delay="300ms">About Us</h6>
+            <h3 class="wow fadeInUp" data-wow-delay="300ms">About IETE</h3>
+            <p class="wow fadeInUp" data-wow-delay="300ms">The Institution of Electronics and Telecommunication Engineers (IETE) is India's leading recognized professional society devoted to the advancement of Science and Technology of Electronics,
+              Telecommunication and IT. Government of India has recognized IETE as a Scientific and Industrial Research Organization (SIRO) and also notified as an educational Institution of national eminence. The objectives of IETE focus on
+              advancing electro-technology. The IETE conducts and partners technical meetings, conferences, symposia, and exhibitions all over India, publishes technical journals and provides continuing education as well as career advancement
+              opportunities to its members.</p>
+
+          </div>
+        </div>
+
+        <!-- About Thumb -->
+        <div class="col-12 col-md-6">
+          <div style="margin-bottom: 92px;" class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
+            <img src="./img/ietee.png" alt="" style="height: 400px; width: 400px; right: 100px;margin-left: 47px;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ===================== -->
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- About Content -->
+        <div class="col-12 col-md-6">
+          <div class="about-content-text mb-80">
+
+            <h3 class="wow fadeInUp" data-wow-delay="300ms">About Access Denied</h3>
+            <p class="wow fadeInUp" data-wow-delay="300ms">Access Denied is a 36-hour hackathon organized by IETE-ISF for innovators across the country. It is an great opportunity to put your technical skills to use. Apply your textbook knowledge to real life ideas and stand a chance to win exclusive goodies, schwags, certificates and cash prizes. Mark your calendars for 19th to 21st March 2021.</p>
+            
+          </div>
+        </div>
+
+        <!-- About Thumb -->
+        <div class="col-12 col-md-6">
+          <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
+            <img src="./img/AD_Square.png" alt="Access Denied " style="height: 400px; width: 400px; right: 100px;margin-left: 50px;">
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="timo">Hack starts in:</h1>
+    <br><br><br>
+    <div id="timer"></div>
+    
+  </div>
+  
+</div>
+  
+  </section>
+  <!-- About Us And Countdown Area End -->
+
+  <!-- ===============TRACKS====================================== -->
+  <section id="tracks">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center text-white">
+          
+<br>
+<p></p>
+          <h3><b class=" wow fadeInUp aa">TRACKS</b></h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row track-list mt-5">
+          <button data-wow-delay="300ms" class="btn col-lg-4 col-md-6 track-item wow fadeInUp" type="button" data-toggle="modal" data-target="#fortin" data-track="pr">
+            <img class="hvr-grow-shadow" src="./img/tracks/track-ai.png" alt="AI">
+            <div class="title mt-1">Women in Tech</div>
+            <div class="subtitle mt-1"> <hr></div>
+          </button>
+          <button data-wow-delay="300ms" class="btn col-lg-4 col-md-6 track-item wow fadeInUp" type="button" data-toggle="modal" data-target="#foxla" data-track="fox">
+            <img src="./img/tracks/track-blockchain.png" class="hvr-grow-shadow" alt="Blockchain">
+            <div class="title mt-1">Blockchain</div>
+            <div class="subtitle mt-1"> <hr> </div>
+          </button>
+          <button data-wow-delay="300ms" class="btn col-lg-4 col-md-6 track-item wow fadeInUp" type="button" data-toggle="modal" data-target="#markycs" data-track="mark">
+            <img src="./img/tracks/track-iot.png" class="hvr-grow-shadow" alt="IoT">
+            <div class="title mt-1">Robotics and IOT</div>
+            <div class="subtitle mt-1"> <hr> </div>
+          </button>
+          <button data-wow-delay="300ms" class="btn col-lg-4 col-md-6 track-item wow fadeInUp" type="button" data-toggle="modal" data-target="#markyts" data-track="mark">
+            <img src="./img/tracks/8.png" class="hvr-grow-shadow" alt="IoT">
+            <div class="title mt-1">Education</div>
+            <div class="subtitle mt-1"> <hr> </div>
+          </button>
+          <button data-wow-delay="300ms" class="btn col-lg-4 col-md-6 track-item wow fadeInUp" type="button" data-toggle="modal" data-target="#markycs" data-track="mark">
+            <img src="./img/tracks/6.png" class="hvr-grow-shadow" alt="IoT">
+            <div class="title mt-1">Open Innovation</div>
+            <div class="subtitle mt-1"> <hr> </div>
+          </button>
+          <button data-wow-delay="300ms" class="btn col-lg-4 col-md-6 track-item wow fadeInUp" type="button" data-toggle="modal" data-target="#markycs" data-track="mark">
+            <img src="./img/tracks/9.png" class="hvr-grow-shadow" alt="IoT">
+            <div class="title mt-1">Health Care</div>
+            <div class="subtitle mt-1"> <hr> </div>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="modal fade" id="fortinet" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <span class="modal-title ml-auto">Fortinet</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <p><b>FOR1</b> A website wants to track activity/sessions of its users and stores all that info in a Nosql database and there’re lakhs of such records. And there’s some other portion of user info that’s present in a different storage
+                  system (say an RDBMS database (that too single threaded and not a client server system) with much slower access rate in comparison to the one keeping the above dynamic data), and there are parts of the dashboard that fetch this info
+                  in conjunction with the dynamic data. Suppose that there’s a dashboard for administrators that shows a snapshot of the number of users, nature of activity (say watching certain shows available on the website, catching up some
+                  newsfeeds, etc)etc, whose monitoring is crucial per the business model. How would you ensure accesses to persistent data doesn’t become a bottleneck and slow up the activities on the dashboard. How would work you around the
+                  challenge posed by the database/storage system where certain ports of user info is kept and accessed as much as the other dynamic info present in the Nosql database</p>
+                <p><b>FOR2</b> Tracking a suspicious system activity.</p>
+                <p>a. We make a list few system resources, if user or any application tries to access or modify these resources, then alert the system admin via email.</p>
+                <p>b. Admin should get notification for each user login.</p>
+                <p>c. If too many failed log-in attempt from a particular client, inform the admin.</p>
+                <p><b>FOR3</b> String search problem: Design an algorithm to find a substring in a string in an efficient way, and compare it with Knuth Morris Pratt pattern matching algorithm. Develop the algorithm in C or C++ and test it with
+                  multiple samples of data</p>
+                <p><b>FOR4</b> Design an algorithm to enable an efficient file transfer to multiple clients, using only single file descriptor to access the file in the file system. Runtime memory usage should not cross file size.</p>
+                <p><b>FOR5</b> String search problem: Design an algorithm to find a substring in a string in an efficient way, and compare it with Knuth Morris Pratt pattern matching algorithm. Develop the algorithm in C or C++ and test it with
+                  multiple samples of data.</p>
+                <p><b>FOR6</b> Design and Develop an CPU and memory efficient stub for redis database, to achieve relational database functionality. Take sample table, of one lakh entries, with five fields and querable by any of the field values. The
+                  program should output the CPU and memory used used for each query. Efficiency of memory used should be output periodically, like memory fragmentation stats etc.</p>
+                <p><b>FOR7</b> Given a graph of access points(AP’s), nodes of graph representing AP’s and edges (undirected) between them representing ranges.</p>
+                <p>i.e. if two AP say AP1 and AP2 has edge between them meaning they are in range of each other.</p>
+                <p>We have to find minimum number of non-overlapping channels which we can assign to them.</p>
+                <p>Eg:</p>
+                <p>AP1--------------------------------------AP2-------------------AP3</p>
+                <p>Solution: Min 2 channels is required here.</p>
+                <p>Solution to above problem is a perfect example of graph colouring problem.</p>
+                <p>To solve it people have to find minimum number of colours which they can use to colour the graph so that no adjacent nodes have same colour.</p>
+                <p>Difficulty: Hard, this problem is NP-Hard, we have to go by heuristics to solve it.</p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="foxmula" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <span class="modal-title  ml-auto">Foxmula</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <ol>
+                  <li><b>FOX1-Data Analytics for Air Trajectory</b>:Sometimes the aircraft may deviate from the designated route due to various reasons. Air traffic control and management system has to detect the change in movement and find out the
+                    actual reason. causes and conduct pilot behavior analysis.<p>Specifications Required:A machine learning algorithm based on the historical air trajectory data is to be designed to detect anomaly and deviation from the regular
+                      authorized air route.</p>
+                  </li>
+                  <li><b>FOX2-Recommendation Engine to predict Movie/TV Show/Books/Sites taste (Web + ML)</b>:Predict which sites/movies/books a person would like judging from their current taste by giving a multi-step form to check their current
+                    favorites.<p>Specification Required:Web Interface to ask the choice among movies &amp; Machine Learning Model that recommends according to the user's given choices.</p>
+                  </li>
+                  <li><b>FOX3-OpenSDK</b>:Pursue any innovative idea of yours, use your preffered domain and technology stack that best suits your needs and prepare a working demo of that project.</li>
+                </ol>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="markytics" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <span class="modal-title ml-auto">Markytics</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <p><b>Scenario: You are Data Scientist/Consultants at Markytics</b></p>
+                <p></p>
+                <ol>
+                  <li>Company is into education domain and it analyses university data. They need find university rank to take strategic decisions. Currently they follow manual process of finding university rank by visiting various websites.</li>
+                  <li>Company wants to develop Python or R application which will take input from user and result would be shown instantly. User will give two inputs first is college country and second input would be university name. Details like
+                    university ranking and other relevant details need to be displayed by this applications.</li>
+                  <li>Additional point which can be developed is take third input regarding course name.</li>
+                </ol>
+                <p><b>Input Example :</b> </p>
+                <ul>
+                  <li><b>Country Name</b> : United States</li>
+                  <li><b>University Name</b>: Massachusetts Institute of Technology</li>
+                  <li><b>Course Name</b>: Computer Science</li>
+                </ul>
+                <p></p>
+                <p><b>Output :</b></p>
+                <ul>
+                  <li><b>University Rank :</b> 1</li>
+                  <li><b>Course Rank :</b> 1</li>
+                </ul>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="defence" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <span class="modal-title ml-auto">Defence</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <ol>
+                  <li><b>DEF1-Design a surveillance system to support the activities for border security forces</b>-Aim of any surveillance system is to provide observation into our Area of Responsibility and also to provide early warning. Elevated
+                    platform enhance the ranges as well as cover dead grounds, however the problem still persist. </li>
+                  <p><b>Expected Deliverables</b>: To overcome shortcoming in present Battle Field Surveillance Radar. Extend surveillance ranges. Increase efficiency of existing systems.</p>
+                  <li><b>DEF2-Design a Prototype of Autonomous bot which can assist the troops during combat for equipment services- Sometimes soldiers step on mines and get serious injuries so the bot can detect the presence of land mines. During
+                      covert operations by commandos the bot can be used to view the inside activity of the conflict area without getting noticed by the enemy troops.</b></li><b></b>
+                  <p><b>Expected Deliverables</b>: The solution should lay emphasis on how the bot can be used in the enhancement of defence technologies. It should guarantee the safety of the soldiers and provide assistance in battle and operations
+                    as well. </p>
+                  <li><b>DEF3-Identification of friend or foe (iff) system for armoured fighting vehicles</b> IFF system is a tool of Combat Identification, “the process of attaining an accurate characterization of detected objects in the operational
+                    environment sufficient to support an engagement decision”. It also contributes to the overall tactical decision making.</li>
+                  <p><b>Expected Deliverables</b>: To positively identify the opposing armoured vehicle prior to engagement. On battlefield, Armoured fighting vehicles would be required to engage enemy armoured fighting vehicles in time critical
+                    situations necessitating shortening of decision loop for engagement without positive identification of friend or foe which at times lead to fratricide by friendly fires.</p>
+                </ol>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="industrial-automation" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <span class="modal-title ml-auto">Industrial automation</span>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <ol>
+                  <li><b>IA1-Methods to deal with hazardous gases and possible leaks</b>:Many industries deal with various hazardous gas. There is immense danger to all the workers if there happens to be a leakage. So it's very important to provide
+                    security to those employees working within these industries. If leakage of gas takes place then we need a system to provide alerts by turning ON an alarm which notifies the employers.<p></p>
+                    <p><b>Expected Deliverables</b>: System to alert employees in case of a hazardous gas leak and identify the area of the leak.</p>
+                  </li>
+                  <li><b>IA2- Atrocious lives of the traffic police</b>: Nowadays the pollution in most of the metropolitan cities has hit unacceptable levels. Combining that with the increasing vehicular traffic, the life of traffic police has
+                    become a daylight atrocity with most being affected by the dust and pollution.<p></p>
+                    <p><b>Expected Deliverables</b>: A suitable system to tackle the problems listed above as well as be economical.</p>
+                  </li>
+                  <li><b>IA3-Damage Identification to belts or machinery</b>: The constant use of heavy raw materials and equipment in industries causes the formation of cracks on industrial belts or even damage to the machinery.<p><b>Expected
+                        Deliverables</b>: A system to identify the points of cracks on the industrial belt. Further, even damage to machinery must be identified.</p>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="modal fade" id="health-care" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <span class="modal-title ml-auto">Health care</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <p>1.<b>HC1-VR in Exposure Therapy and Treatment of anxiety disorders with VR.</b>VR in Exposure Therapy and Treatment of Anxiety Disorders With VR as a deeply immersive and visual medium, it's not surprising to find its use in
+                  exposure therapy. Interactive VR platform in use at university centers, military bases, and veterans hospitals can offers patients virtual environments that mirror their traumatic experiences. A trained therapist controls the
+                  emotional stimuli and monitors their stress responses. Patient Recovery and Wellness using VR Many of these applications will benefit from the ongoing research in biofeedback monitoring. A highly innovative VR platform to map and
+                  respond to brain activity for applications in healthcare. VR is exploring ways to expand the effectiveness of using VR in therapy. A rehabilitation software motivates patients to perform specific movements, using games, movies, and
+                  360 degrees interactive guides. What makes these applications incredibly valuable is the precise analytics they collect that can lead to further customization of patient care.</p>
+                <p>2.<b>HC2-Diagnosis of Facial dysmorphic features using ML</b>Diagnosis of facial dysmorphic features (ML) Facial recognition software is being combined with machine learning to help clinicians diagnose rare diseases (in this case,
+                  from facial dysmorphic features). Patient photos are analyzed using facial analysis and deep learning to detect phenotypes that correlate with rare genetic diseases.</p>
+                <p>3.<b>HC3-Lack of access to quality clinical care close to the patient’s homes is the major cause for medical problems being detected late and having bad clinical outcomes. This is true for maternal care as well</b>.In Primary
+                  Health Centres (PHCs) across India, clinical personnel are often ill equipped from a skill perspective to carry out timely interventions for expectant mothers. The doctors in a PHC follow an elementary checklist while treating
+                  pregnant women. Firstly, these checklists do not adhere to the standard recommendations of National Rural Health Mission(NRHM) or the World Health Organization(WHO) and hence medical conditions like risk of anaemia, Post-Partum
+                  Haemorrhage etc. are not detected early. Secondly, the doctors in PHCs only provide “minimal treatment” and refer most of the cases directly to the General Hospital. This causes even the most routine cases to be forwarded to the
+                  General/District hospitals instead of being handled in the PHC. Congestion in General/District hospitals due to this practice leads to their bandwidth not being available for critical cases. This project aims to provide a
+                  standardized care protocol that can self-enhance and learn contextually as doctors in PHCs use it.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="trackModal" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <span class="modal-title ml-auto">Track model</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">A world of devices connected by internet opens up opportunities for us that were previously unthinkable. Innovative apps can be built that can allow devices to share data and take intelligent decisions.</div>
+              <div class="modal-footer">
+                <button type="button" class="btn" id="nextTrack">Next track</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="rural-transformation" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <span class="modal-title ml-auto">Rural transformation</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <ol>
+                  <li><b>RT1-Design a management system for effective distribution of water resources in rural areas based on the use</b>One of the major problems in rural areas is the effective distribution of water resources. While things such as
+                    agriculture need more water and regular lifestyle of people consume less water, distribution of water is not very proper in villages generally.<p><b>Expected Deliverables</b>: You are expected to come up with an effective
+                      management system which categorises and prioritises the requirements and allots the quantity of water effectively.</p>
+                  </li>
+                  <li><b>RT2-Design a platform for controlling crime in the rural areas and effectively reporting the crime happening with people</b>Rural areas lack proper law and order. Victims find it difficult to report the instances happening
+                    with them and even after reporting such instances the proper action lacks. In some scenarios, nearby people can be of a great help.<p><b>Expected Deliverables</b>: You need to come up with an app which allows instant reporting and
+                      quick notifying the nearby people who can come to the scene and help. This should be simultaneously reported to the police station so that the police can reach the scene as soon as possible.</p>
+                  </li>
+                  <li><b>RT3-Create a digital marketing network for sale of agricultural commodities for the benefit of farmer and end user</b>Farmers these days face a lot of trouble in selling their stuff to the to the consumer. Farmers get
+                    exploited by the wholesalers in the market and do not get the deserved money as the intermediate sellers take a lot of the profit.<p><b>Expected Deliverables</b>: You need to design a platform where the farmers can go and sell
+                      their yield directly to the consumer who can receive the product at a much lower price as compared to market price as the intermediate commission is nullified.</p>
+                  </li>
+                </ol>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="logistics" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <span class="modal-title ml-auto">Logistics</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <ol>
+                  <li><b>LT1-GPS Based Tracking Application with Logistics Management: </b>To target this we develop new system which can provide real-time location of product and user (transport owner) can control sensor to maintain product
+                    freshness.Our system is GPS tracking system in which we track the truck which is supplied by supplier. Our system provides real-time asset tracking. In our system we have instant alerts on mobile SMS or Email to the truck driver
+                    to worn driver when there is some emergency or any defect in truck freezer. In this system we have required three hardware devices for tracking and measure the temperature of truck: -1. GPS module , 2. GSM module , 3. Temperature
+                    Sensor.<p><b>Expected Deliverables:</b>To develop an android app and website to Track And Maintain Freshness of Product.</p>
+                  </li>
+                </ol>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="disaster" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <span class="modal-title ml-auto">Disaster</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <ol>
+                  <li><b>DM1-Least affected path for evacuation:</b>There is a lot of chaos during a disaster, people run here and there to find the best suitable place for their protection. The system should provide best path for them during such
+                    circumstances to reach a safe location.<p><b>Expected Deliverables: </b>Design a software/equipment to provide least affected and safe path to crowd for evacuation.</p>
+                  </li>
+                  <li><b>DM2-Innovative devices for waste management after a natural disaster</b>During Kerala floods after the flood water cleared off there were huge heaps of mixed wastes containing organic and inorganic matter which can be
+                    hazardous for the health and can even cause health problems for the flood survivors and can act as kickstart for various other diseases to emerge and spread. It even causes transportation problems due to blockage and makes it
+                    cumbersome for resources to be transferred from once point to other.<p><b>Expected Deliverables:</b>Design a model for removing the waste after a natural diaster</p>
+                  </li>
+                </ol>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="society" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <span class="modal-title ml-auto">Society welfare</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                <ol>
+                  <li><b>SW1-Safety of school going kids </b>Every now and then we hear about cases of young kids being kidnapped while commuting to and from school. This is a very serious problem that must be tackled. Since it is not suitable for
+                    young children to carry mobile phones, some other device or system must be developed for tracking and ensuring the safety of kids.<p><b>Expected Deliverables:</b>Design and develop an equipment/software for ensuring the safety of
+                      school kids travelling alone, with provision for SOS call.</p>
+                  </li>
+                  <li><b>SW2-Application for hearing and speech impaired people</b>The life of a person who has both hearing and speech disability is very difficult. They cannot interact with everyone. Lip-reading is very difficult in come cases and
+                    sign language cannot be understood by most people. There should be a system that performs instantaneous text-to speech and speech-to-text conversion for making their lives easier.<p><b>Expected Deliverables:</b> Design and develop
+                      an equipment/software for making communication easier for hearing and speech impaired people.</p>
+                  </li>
+                  <li><b>SW3-Pollution level analysis.</b>Pollution is the new major environmental problem nowadays. With the increase in the number of respiratory diseases cases, people are becoming more conscious and aware about pollution as a
+                    major problem in today’s world. People generally avoid high pollution areas, or go there with proper precaution. However it would be much easier if there was a system that would determine the pollution level in their area (similar
+                    to live location based weather systems).<p><b>Expected Deliverables: </b>Design and develop an equipment/software for measuring the pollution level in the area near the user’s location.</p>
+                  </li>
+                </ol>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="eride" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="d-flex">
+            <div class="modal-text">
+              <div class="modal-header">
+                <span class="modal-title ml-auto">Eride</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Itinerary" class="our-schedule-area section-padding-1000">
+  <div class="container">
+    <div class="row">
+      <!-- Heading -->
+      <div class="col-12">
+        <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+         
+          <h4>Itinerary</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="schedule-tab">
+          <!-- Nav Tabs -->
+          <ul class="nav nav-tabs wow fadeInUp" data-wow-delay="300ms" id="conferScheduleTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#step-one" role="tab"
+                aria-controls="step-one" aria-expanded="true">Wednesday <br> <span>17 March 2021 </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " id="thursday-tab" data-toggle="tab" href="#step-four" role="tab"
+                aria-controls="step-four" aria-expanded="true">Thursday <br> <span>18th March 2021</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " id="tuesday-tab" data-toggle="tab" href="#step-two" role="tab"
+                aria-controls="step-two" aria-expanded="true">Friday <br> <span>19th March 2021</span></a>
+            </li>
+            
+            <!-- Nav Item -->
+            <li class="nav-item">
+              <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#step-three" role="tab"
+                aria-controls="step-three" aria-expanded="true">Saturday <br> <span>20th March 2021</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="sunday-tab" data-toggle="tab" href="#step-five" role="tab"
+                aria-controls="step-five" aria-expanded="true">Sunday <br> <span>21st March 2021</span></a>
+            </li>
+
+          </ul>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="conferScheduleTabContent">
+          <div class="tab-pane fade show active" id="step-one" role="tabpanel" aria-labelledby="monday-tab">
+            <!-- Single Tab Content -->
+            <div class="single-tab-content">
+              <div class="row">
+                <div class="col-12">
+                  <!-- Single Schedule Area -->
+                  <div
+                    class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                    data-wow-delay="300ms">
+                    <!-- Single Schedule Thumb and Info -->
+                    <div class="single-schedule-tumb-info d-flex align-items-center">
+                      <!-- Single Schedule Thumb -->
+
+                      <!-- Single Schedule Info -->
+                      <div class="single-schedule-info">
+                        <h6>Session by Dhaval Gujar on IOT and
+                          Robotics</h6>
+
+                      </div>
+                    </div>
+                    <!-- Single Schedule Info -->
+                    <div class="schedule-time-place">
+                      <p><i class="zmdi zmdi-time"></i> 11 am – 1:00 pm</p>
+
+                    </div>
+                    <!-- Schedule Btn -->
+
+                  </div>
+
+                  <!-- Single Schedule Area -->
+                  <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center fadeInUp"
+                    data-wow-delay="300ms">
+                    <!-- Single Schedule Thumb and Info -->
+                    <div class="single-schedule-tumb-info d-flex align-items-center">
+                      <!-- Single Schedule Thumb -->
+
+                      <!-- Single Schedule Info -->
+                      <div class="single-schedule-info">
+                        <h6>Session by Praveen Kumar
+                          Purushothaman on Fullstack
+                          Development</h6>
+
+                      </div>
+                    </div>
+                    <!-- Single Schedule Info -->
+                    <div class="schedule-time-place">
+                      <p><i class="zmdi zmdi-time"></i> 7:00 pm – 8:30 pm
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+
+                <!-- More Schedule Btn -->
+                
+              </div>
+            </div>
+          </div>
+
+
+          <div class="tab-pane fade" id="step-four" role="tabpanel" aria-labelledby="thursday-tab">
+            <!-- Single Tab Content -->
+            <div class="single-tab-content">
+              <div class="row">
+                <div class="col-12">
+                  <!-- Single Schedule Area -->
+                  <div
+                    class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                    data-wow-delay="300ms">
+                    <!-- Single Schedule Thumb and Info -->
+                    <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                      <!-- Single Schedule Info -->
+                      <div class="single-schedule-info">
+                        <h6>Session by Praveen Kumar
+                          Purushothaman on Fullstack
+                          Development</h6>
+
+                      </div>
+                    </div>
+                    <!-- Single Schedule Info -->
+                    <div class="schedule-time-place">
+                      <p><i class="zmdi zmdi-time"></i> 7:00 pm – 8:30 pm</p>
+
+                    </div>
+
+                  </div>
+
+                  
+
+          </div>
+          <!-- More Schedule Btn -->
+                <div class="col-12">
+                  <div class="more-schedule-btn text-center mt-50 wow fadeInUp" data-wow-delay="300ms">
+                    <a download="ACCESS_DENIED_2021_SCHEDULE.docx" href="ACCESS_DENIED_2021_SCHEDULE.docx"
+                      class="btn confer-gb-btn">Download schedule (Pdf)</a>
+                  </div>
+                </div>
+        </div>
+      </div>
+          </div>
+
+
+
+          <div class="tab-pane fade" id="step-two" role="tabpanel" aria-labelledby="tuesday-tab">
+            <!-- Single Tab Content -->
+            <div class="single-tab-content">
+              <div class="row">
+                <div class="col-12">
+                  <!-- Single Schedule Area -->
+                  <div
+                    class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                    data-wow-delay="300ms">
+                    <!-- Single Schedule Thumb and Info -->
+                    <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                      <!-- Single Schedule Info -->
+                      <div class="single-schedule-info">
+                        <h6>Session by Joshua Starmer on neural
+                          networks
+                          </h6>
+
+                      </div>
+                    </div>
+                    <!-- Single Schedule Info -->
+                    <div class="schedule-time-place">
+                      <p><i class="zmdi zmdi-time"></i> 6:30 pm – 7:30 pm</p>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Single Schedule Area -->
+                  <div
+                    class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                    data-wow-delay="300ms">
+                    <!-- Single Schedule Thumb and Info -->
+                    <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                      <!-- Single Schedule Info -->
+                      <div class="single-schedule-info">
+                        <h6>Inaugural Ceremony by Anca +
+                          faculty coordinator address + Q&A
+                          related to Hack by participants.</h6>
+
+                      </div>
+                    </div>
+                    <!-- Single Schedule Info -->
+                    <div class="schedule-time-place">
+                      <p><i class="zmdi zmdi-time"></i> 8.30 pm - 10.30 pm</p>
+
+                    </div>
+                    <!-- Schedule Btn -->
+
+                  </div>
+
+                  <!-- Single Schedule Area -->
+                  <div
+                    class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                    data-wow-delay="300ms">
+                    <!-- Single Schedule Thumb and Info -->
+                    <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                      <!-- Single Schedule Info -->
+                      <div class="single-schedule-info">
+                        <h6>Hack begins – 36 hours to go
+                        </h6>
+
+                      </div>
+                    </div>
+                    <!-- Single Schedule Info -->
+                    <div class="schedule-time-place">
+                      <p><i class="zmdi zmdi-time"></i> 10.30 pm</p>
+
+                    </div>
+
+                  </div>
+                  <!-- Single Schedule Area -->
+                  <div
+                    class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                    data-wow-delay="300ms">
+                    <!-- Single Schedule Thumb and Info -->
+                    <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                      <!-- Single Schedule Info -->
+                      <div class="single-schedule-info">
+                        <h6>Session on Git and GitHub by Seema
+                          Saharan (TBD)</h6>
+                      </div>
+                    </div>
+                    <!-- Single Schedule Info -->
+                    <div class="schedule-time-place">
+                      <p><i class="zmdi zmdi-time"></i>11.00 pm -11:45 pm</p>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- More Schedule Btn -->
+                <div class="col-12">
+                  <div class="more-schedule-btn text-center mt-50  fadeInUp" data-wow-delay="300ms">
+                    <a download="ACCESS_DENIED_2021_SCHEDULE.docx" href="ACCESS_DENIED_2021_SCHEDULE.docx"
+                      class="btn confer-gb-btn">Dowload schedule (Pdf)</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="step-three" role="tabpanel" aria-labelledby="wednesday-tab">
+            <!-- Single Tab Content -->
+            <div class="single-tab-content">
+              <div class="row">
+                <div class="col-12">
+                  <!-- Single Schedule Area -->
+                  <div
+                    class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                    data-wow-delay="300ms">
+                    <!-- Single Schedule Thumb and Info -->
+                    <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                      <!-- Single Schedule Info -->
+                      <div class="single-schedule-info">
+                        <h6>24 hours to go</h6>
+
+                      </div>
+                    </div>
+                    <!-- Single Schedule Info -->
+                    <div class="schedule-time-place">
+                      <p><i class="zmdi zmdi-time"></i> 10.30 am</p>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Single Schedule Area -->
+                  <div
+                    class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                    data-wow-delay="300ms">
+                    <!-- Single Schedule Thumb and Info -->
+                    <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                      <!-- Single Schedule Info -->
+                      <div class="single-schedule-info">
+                        <h6>Session by Eddie Jaoude on open
+                          source and effective community
+                          building.</h6>
+
+                      </div>
+                    </div>
+                    <!-- Single Schedule Info -->
+                    <div class="schedule-time-place">
+                      <p><i class="zmdi zmdi-time"></i> 12:00 pm – 1:00 pm</p>
+
+                    </div>
+
+                  </div>
+                  <div
+                  class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                  data-wow-delay="300ms">
+                  <!-- Single Schedule Thumb and Info -->
+                  <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                    <!-- Single Schedule Info -->
+                    <div class="single-schedule-info">
+                      <h6>Agtech Session by Balaji Vasudevan</h6>
+
+                    </div>
+                  </div>
+                  <!-- Single Schedule Info -->
+                  <div class="schedule-time-place">
+                    <p><i class="zmdi zmdi-time"></i> 7:00 pm – 8:00 pm</p>
+
+                  </div>
+
+                </div>
+                <div
+                class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                data-wow-delay="300ms">
+                <!-- Single Schedule Thumb and Info -->
+                <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                  <!-- Single Schedule Info -->
+                  <div class="single-schedule-info">
+                    <h6>Review by IETE’s Tech team
+                    </h6>
+
+                  </div>
+                </div>
+                <!-- Single Schedule Info -->
+                <div class="schedule-time-place">
+                  <p><i class="zmdi zmdi-time"></i> 8.30 pm</p>
+
+                </div>
+
+              </div>
+              <div
+              class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+              data-wow-delay="300ms">
+              <!-- Single Schedule Thumb and Info -->
+              <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                <!-- Single Schedule Info -->
+                <div class="single-schedule-info">
+                  <h6>Session by Brian Goloud on Resume
+                    building</h6>
+
+                </div>
+              </div>
+              <!-- Single Schedule Info -->
+              <div class="schedule-time-place">
+                <p><i class="zmdi zmdi-time"></i> 8:30 pm – 9:30 pm</p>
+
+              </div>
+
+            </div>
+            <div
+            class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+            data-wow-delay="300ms">
+            <!-- Single Schedule Thumb and Info -->
+            <div class="single-schedule-tumb-info d-flex align-items-center">
+
+              <!-- Single Schedule Info -->
+              <div class="single-schedule-info">
+                <h6>12 hours until final submission
+                </h6>
+
+              </div>
+            </div>
+            <!-- Single Schedule Info -->
+            <div class="schedule-time-place">
+              <p><i class="zmdi zmdi-time"></i> 10:30 pm</p>
+
+            </div>
+
+          </div>
+          
+        </div>
+        <!-- More Schedule Btn -->
+                <div class="col-12">
+                  <div class="more-schedule-btn text-center mt-50  fadeInUp" data-wow-delay="300ms">
+                    <a download="ACCESS_DENIED_2021_SCHEDULE.docx" href="ACCESS_DENIED_2021_SCHEDULE.docx"
+                      class="btn confer-gb-btn">Dowload schedule (Pdf)</a>
+                  </div>
+                </div>
+               </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="step-five" role="tabpanel" aria-labelledby="sunday-tab">
+            <!-- Single Tab Content -->
+            <div class="single-tab-content">
+              <div class="row">
+                <div class="col-12">
+                  <!-- Single Schedule Area -->
+                  <div
+                    class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                    data-wow-delay="300ms">
+                    <!-- Single Schedule Thumb and Info -->
+                    <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                      <!-- Single Schedule Info -->
+                      <div class="single-schedule-info">
+                        <h6>Submission deadline - Hack ends</h6>
+
+                      </div>
+                    </div>
+                    <!-- Single Schedule Info -->
+                    <div class="schedule-time-place">
+                      <p><i class="zmdi zmdi-time"></i> 10.30 am</p>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Single Schedule Area -->
+                  <div
+                    class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                    data-wow-delay="300ms">
+                    <!-- Single Schedule Thumb and Info -->
+                    <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                      <!-- Single Schedule Info -->
+                      <div class="single-schedule-info">
+                        <h6>Session by Neha Benny Mathews on
+                            women in tech</h6>
+
+                      </div>
+                    </div>
+                    <!-- Single Schedule Info -->
+                    <div class="schedule-time-place">
+                      <p><i class="zmdi zmdi-time"></i> 11.00 am - 11.30 am</p>
+
+                    </div>
+
+                  </div>
+                  <div
+                  class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                  data-wow-delay="300ms">
+                  <!-- Single Schedule Thumb and Info -->
+                  <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                    <!-- Single Schedule Info -->
+                    <div class="single-schedule-info">
+                      <h6>Session by Co-founders of
+                          code4cause</h6>
+
+                    </div>
+                  </div>
+                  <!-- Single Schedule Info -->
+                  <div class="schedule-time-place">
+                    <p><i class="zmdi zmdi-time"></i> 12.00 pm - 2.00 pm</p>
+
+                  </div>
+
+                </div>
+                <div
+                class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center  fadeInUp"
+                data-wow-delay="300ms">
+                <!-- Single Schedule Thumb and Info -->
+                <div class="single-schedule-tumb-info d-flex align-items-center">
+
+                  <!-- Single Schedule Info -->
+                  <div class="single-schedule-info">
+                    <h6>Result Announcement and
+                      valedictory ceremony
+                    </h6>
+
+                  </div>
+                </div>
+                <!-- Single Schedule Info -->
+                <div class="schedule-time-place">
+                  <p><i class="zmdi zmdi-time"></i> 7.30 pm</p>
+
+                </div>
+
+              </div>
+          
+         
+                </div>
+
+                <!-- More Schedule Btn -->
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- ======================tracks end================================ -->
+  
+  
+  <div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup()">&times;</div>
+      
+        <!-- Heading -->
+        
+
+            <p style="text-align: justify;"><br> Participants are requested to follow the Code of Conduct. If any participant
+              violates the above rules, strict action will be taken against them by the
+              hackathon organizers.<br>
+              Hackathon is a community event where we welcome attendees from all
+              backgrounds. This event is about increasing the overall amount of learning,
+              partnership, and engagement in the developer community. We value the
+              participation of each member and want everyone involved to have a joyful and
+              fulfilling experience. Accordingly, all staff and participants are expected to show
+              respect and courtesy to others throughout the event. We believe that every
+              single person has the right to hack in a respectful and safe environment.<br>
+              <br><span class="topic" style="color:blue;">  No Plagiarism or Re-use of Past Work: </span><br>
+              We encourage you to submit projects only prepared in the duration of the
+              hackathon.<br>
+              
+              However, if you decide to submit projects consisting of re-used code, or re-
+              submit a project that you have already submitted previously to any other
+              
+              hackathon, you are to disclose such previous use and its extent with the
+              submission.<br>
+              If upon inspection, it is found that the project has re-used code that was not
+              disclosed with the submission, the organizer may ask the participant to point
+              out similarities and differences between the old and new work, and/or disqualify
+              the submission from winning awards automatically.<br>
+              <br><span class="topic" style="color:blue;">  No Harassment: </span><br>
+              Harassment includes offensive verbal comments related to gender, gender
+              identity and expression, age, sexual orientation, disability, physical appearance,
+              body size, race, ethnicity, nationality, religion or political views, sexual images in
+              public spaces, deliberate intimidation, stalking, following, photography or
+              audio/video recording against reasonable consent, sustained disruption of talks
+              or other events, inappropriate physical contact, and unwelcome sexual
+              attention.<br>
+              Sponsors and partners are also subject to the anti-harassment policy. In
+              particular, sponsors should not use sexualised images, activities, or other
+              material. Sponsor representatives (including volunteers) should not use
+              sexualised clothing/uniforms/costumes, or otherwise create a sexualised
+              environment.<br>
+              <br><span class="topic" style="color:blue;">  Report: </span><br>
+              Be kind and thoughtful to others. Do not insult or put down other participants.
+              Any sort of harassment or abuse is not encouraged. If you feel that you are in a
+              situation that makes you feel uncomfortable at the staff or at the fellow
+              participants, please report it to the organizers immediately.<br>
+              If you are being harassed, notice that someone else is being harassed, or have
+              any other concerns, please contact a member of hackathon staff immediately.<br>
+              <br><span class="topic" style="color:blue;">  Consequences of Violations: </span><br>
+              Participants asked to stop any harassing behaviour are expected to comply
+              immediately.<br>
+              If a participant engages in harassing behaviour, the hackathon organisers may
+              take any action they deem appropriate. This includes warning the offender,
+              expulsion from the hackathon, or reporting their behaviour to local law
+              enforcement.<br></p>
+
+        
+      </div>
+      
+    </div>
+  
+  
+  <!-- Our Schedule Area Start -->
+
+  <!-- Our Schedule Area End -->
+
+  
+  
+  <section  class="our-ticket-pricing-table-area bg-img bg-gradient-overlay section-padding-100-0 jarallax" style="background-image: url(img/bg-img/14.jpg);">
+   
+    
+  <div class="row">
+   
+  
+
+    <div class="col-12">
+      <div class="our-client-area mt-100 wow fadeInUp" data-wow-delay="300ms">
+        <h2 style="color: white;text-align:center; padding-bottom:30px" id="speakers">Speakers</h2>
+        <!-- client Slider -->
+        <div class="client-area owl-carousel">
+          <!-- Single client Slider -->
+          <div class="single-client-content">
+            <!-- Single client Text -->
+            <div class="single-client-text ">
+              <img class="shp" src="./img/spk/E6351A00-FC40-48A6-AEA2-6A2525DA8891 - Brian Golod.jpeg" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Brian Golod</h2>
+            
+            <p>LinkedIn Influencer (214K followers, 30MM organic views), 23 years in Technology, Career Development expert, empower, inspire, help and protect professionals worldwide to unlock their full potential and reach their dreams. His resume got picked by United Nations as the Best Resume.</p>
+            <p><button class="button" onclick="window.location.href='https://linkedIn.com/in/briangolod';" >LinkedIn<a target="_blank" href="https://linkedIn.com/in/briangolod"></a> </button></p>
+          </div>
+            </div>
+            <!-- Single client Icon -->
+            <div class="client-icon">
+              <i class="zmdi zmdi-quote"></i>
+            </div>
+          </div>
+  
+          <div class="single-client-content">
+            <!-- Single client Text -->
+            <div class="single-client-text">
+              <img class="shp" src="./img/spk/anca.jpg" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Anca D. Goron Ph.D.</h2>
+            
+            <p>She holds a PhD in Artificial Intelligence, over 15 years of research, business and IT&C experience. Founder of the A.I. based startup doorie and listed in Forbes 100 Female Founders. Her current work is focused on IoT, Smart City and e-Governance solutions, being a strong advocate on women in tech, education and mental health.</p>
+            <p><button class="button" onclick="window.location.href='https://www.linkedin.com/in/ancagoron/';" >LinkedIn<a target="_blank" href="https://www.linkedin.com/in/ancagoron/"></a> </button></p>
+          </div>
+            </div>
+            <!-- Single client Icon -->
+            <div class="client-icon">
+              <i class="zmdi zmdi-quote"></i>
+            </div>
+          </div>
+  
+          <div class="single-client-content">
+            <!-- Single client Text -->
+            <div class="single-client-text ">
+              <img class="shp" src="./img/spk/eddie.jpg" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Eddie Jaoude</h2>
+            
+            <p> <strong>He believes in Open Source for EVERYONE!</strong> Eddie is an Open Source expert, DevRel, YouTuber and a Fullstack developer. Having worked as a senior software engineer and senior developer advocate for over 15 years, he has contributed to many open source projects on GitHub. He also trended in the top 11 & in the top 500 open source contributors. He is also very passionate about culture, community and best practices, and promotes these topics for the wider community. </p>
+            <p><button class="button" onclick="window.location.href='https://www.linkedin.com/in/eddiejaoude/';" >LinkedIn<a target="_blank" href="https://www.linkedin.com/in/eddiejaoude/"></a> </button></p>
+          </div>
+            </div>
+            <!-- Single client Icon -->
+            <div class="client-icon">
+              <i class="zmdi zmdi-quote"></i>
+            </div>
+          </div>
+          <div class="single-client-content">
+            <!-- Single client Text -->
+            <div class="single-client-text ">
+              <img class="shp" src="./img/spk/balaji.png" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Balaji Vasudevan</h2>
+            
+            <p>Balaji Vasudevan is currently Plant Pathology/Plant Biology Lead at GreenLight Biosciences, Inc located in RTP, NC, USA.
+              He earned his Master of Science in Plant Biotechnology in Chennai, India in 1994, and his Ph.D. in Plant Biotechnology
+              from Madurai Kamaraj University, India in 2002, working with Prof. Karuppannan Veluthambi.</p>
+            <p><button class="button" onclick="window.location.href='https://www.linkedin.com/in/balaji-vasudevan/';" >LinkedIn<a target="_blank" href="https://www.linkedin.com/in/balaji-vasudevan/"></a> </button></p>
+          </div>
+            </div>
+            <!-- Single client Icon -->
+            <div class="client-icon">
+              <i class="zmdi zmdi-quote"></i>
+            </div>
+          </div>
+          <div class="single-client-content">
+            <!-- Single client Text -->
+            <div class="single-client-text">
+              <img class="shp" src="./img/spk/seema.png" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Seema Saharan</h2>
+            
+            <p>Seema is a speaker, mentor, an open-source contributor, and YouTuber. She is interested in DevOps and Cloud Computing. She loves to share her knowledge with others.She is an IT enthusiast, who is passionate about all the latest technologies from a research perspective.</p>
+            <p><button class="button" onclick="window.location.href='https://www.linkedin.com/in/iete-isf-vit/';" >LinkedIn<a target="_blank" href="https://www.linkedin.com/in/iete-isf-vit/"></a> </button></p>
+          </div>
+            </div>
+            <!-- Single client Icon -->
+            <div class="client-icon">
+              <i class="zmdi zmdi-quote"></i>
+            </div>
+          </div>
+          <div class="single-client-content">
+            <!-- Single client Text -->
+            <div class="single-client-text">
+              <img class="shp" src="./img/spk/neha1.jpg" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Neha Benny Mathews</h2>
+            
+            <p>She is currently pursuing my Masters in Industrial & Systems Engineering and working part-time as an industrial engineer in the healthcare industry. Previously, when she was studying at VIT, she worked Ecolab and Amazon.</p>
+            <p><button class="button" onclick="window.location.href='https://www.linkedin.com/in/neha-benny-m/';" >LinkedIn<a target="_blank" href="https://www.linkedin.com/in/neha-benny-m/"></a> </button></p>
+          </div>
+            </div>
+            <!-- Single client Icon -->
+            <div class="client-icon">
+              <i class="zmdi zmdi-quote"></i>
+            </div>
+          </div>
+  
+           <div class="single-client-content">
+            <!-- Single client Text -->
+            <div class="single-client-text">
+              <img class="shp" src="./img/spk/Praveen-CloseUp-3K-Sq (1)-min.jpg" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Praveen Kumar
+            </h2>
+            
+            <p> He is a full-stack developer, innovator, open source contributor, React-JS specialist and a Blockchain enthusiast. He has come in the Top 0.05% Overall in Stack Overflow.  </p>
+            <p><button class="button" onclick="window.location.href='https://www.linkedin.com/in/praveentech/;" >LinkedIn<a target="_blank" href="https://www.linkedin.com/in/praveentech/"></a> </button></p>
+          </div>
+            </div>
+            <!-- Single client Icon -->
+            <div class="client-icon">
+              <i class="zmdi zmdi-quote"></i>
+            </div>
+          </div>
+          
+          <div class="single-client-content">
+            <!-- Single client Text -->
+            <div class="single-client-text">
+              <img class="shp" src="./img/spk/joshua.jpg" alt="John" style="">
+          <div class="container">
+            <h2>Joshua Starmer</h2>
+            
+            <p>Joshua is the Founder and CEO of StatQuest. StatQuest started out as an attempt to explain statistics to his former co-workers. He makes StatQuest videos to explain Statistics, Machine Learning and Data Science </p>
+            <p><button class="button" onclick="window.location.href='https://www.linkedin.com/in/joshua-starmer-95a554130/';" >LinkedIn<a target="_blank" href="https://www.linkedin.com/in/joshua-starmer-95a554130/"></a> </button></p>
+          </div>
+            </div>
+            <!-- Single client Icon -->
+            <div class="client-icon">
+              <i class="zmdi zmdi-quote"></i>
+            </div>
+          </div>
+          <div class="single-client-content">
+            <!-- Single client Text -->
+            <div class="single-client-text">
+              <img class="shp" src="./img/spk/gujar1.jpg" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Dhaval Gujar</h2>
+            
+            <p>He is a Computer Engineering graduate from PICT, working at Espressif Systems for the past year in the field of AIoT.His research work in fields such as AI, Information Security, and Blockchain has been published in prestigious journals and conferences by ACM and IEEE.</p>
+            <p><button class="button" onclick="window.location.href='https://dhavalgujar.github.io/';" >GitHub<a target="_blank" href="https://dhavalgujar.github.io/"></a> </button></p>
+          </div>
+            </div>
+            <!-- Single client Icon -->
+            <div class="client-icon">
+              <i class="zmdi zmdi-quote"></i>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+   
+  
+   
+  </div>
+  <!-- Our Sponsor And Client Area Start -->
+  <section class="our-sponsor-client-area section-padding-100" id="sponsors">
+    <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
+      <p style="color:#dd96c8"> Partners &amp; Sponsors</p>
+      <h4>Coming Soon</h4>
+    </div>
+    <h4 onclick="sponsorShow()" style="color: white;text-align:center; cursor:pointer">Previous Sponsors <i class="fa fa-arrow-down"></i> </h4>
+    <div id="previous_sponsors" class="container">
+      <div class="row">
+        <!-- Heading -->
+        <div class="col-12">
+          <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
+            <p> Partners &amp; Sponsors</p>
+            <h4>TITLE SPONSOR</h4>
+            <a href="#"><img src="./img/sponsors/fortinet.png" alt="fortinet-image"></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Heading -->
+        <div class="col-12">
+          <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
+            <h4>OFFICIAL SPONSOR</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <!-- Our Sponsor area -->
+          <div class="our-sponsor-area d-flex flex-wrap">
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/balsamiq.png" alt="balsamiq-image"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/bugsee.png" alt=""></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/digitalocean.png" alt=""></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/docker.png" alt=""></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/drunkenmonkey.png" alt=""></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/estimote.png" alt=""></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/foxmula.png" alt=""></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/github.png" alt=""></a>
+            </div>
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/hackerearth.png" alt=""></a>
+            </div>
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/hasura.png" alt=""></a>
+            </div>
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/jetbrains.png" alt=""></a>
+            </div>
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/kothari.png" alt=""></a>
+            </div>
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/markytics.png" alt=""></a>
+            </div>
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/mlh.png" alt=""></a>
+            </div>
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/nisna.png" alt=""></a>
+            </div>
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/redback.png" alt=""></a>
+            </div>
+             <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+            <a href="#"><img src="./img/sponsors/sketchapp.png" alt=""></a>
+             </div>
+          <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+            <a href="#"><img src="./img/sponsors/zebronics.png" alt=""></a>
+          </div>
+          </div>
+        </div>
+       
+        
+       
+      </div>
+
+      <!-- ==================== -->
+      <div class="row">
+        <!-- Heading -->
+        <div class="col-12">
+          <div class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
+            <h4 class="partner">OUR PARTNERS</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <!-- Our Sponsor area -->
+          <div class="our-sponsor-area d-flex flex-wrap ">
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/eride.jpeg" alt="balsamiq-image"></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/tpc.png" alt=""></a>
+            </div>
+            <!-- Single Sponsor -->
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/tfac.png" alt=""></a>
+            </div>
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/yearbook.png" alt=""></a>
+            </div>
+            <div class="single-sponsor  fadeInUp" data-wow-delay="300ms">
+              <a href="#"><img src="./img/sponsors/codepark.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="more-schedule-btn text-center mt-50 wow fadeInUp" data-wow-delay="300ms">
+        <a style="margin:0 !important" download="Sponsorship Brochure.pdf" href="Sponsorship Brochure.pdf"
+          class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Download Sponsorship Brochure (Pdf)</a>
+      </div>
+    </div>
+  </section>
+  <!-- Our Sponsor And Client Area End -->
+
+  
+
+<!-- Our Ticket Pricing Table Area Start -->
+  <section id="faq" class="our-ticket-pricing-table-area bg-img bg-gradient-overlay section-padding-100-0 jarallax" style="background-image: url(img/bg-img/14.jpg);">
+    <div class="container">
+      <div class="row">
+        <!-- Heading -->
+        <div class="col-12">
+          <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
+            <h4></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- faq -->
+        <div class=" faq_container col-12 col-lg-6">
+          <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+            <h6 class="ticket-plan">FAQ</h6>
+            <a data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
+              > Who is this hack for?
+            </a>
+            <div class="collapse" id="collapse1">
+              <div class="card card-body">
+                We encourage and welcome undergraduate students of all backgrounds to join us.
+              </div>
+            </div>
+            <a data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapseExample">
+              > What if I don’t know how to code?
+            </a>
+            <div class="collapse" id="collapse2">
+              <div class="card card-body">
+                Interest in learning and working with technology is much more important than your current experience level. No experience is needed — you will be able to work with various mentors, interact with companies, and learn alongside fellow
+                participants.
+              </div>
+            </div>
+            <a data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapseExample">
+              > What if I don't have a team?
+            </a>
+            <div class="collapse" id="collapse3">
+              <div class="card card-body">
+                You can register individually and approach other teams if you would like to collaborate. You can also approach other individuals to form a team.
+              </div>
+            </div>
+            <a data-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapseExample">
+              > Where is this?
+            </a>
+            <div class="collapse" id="collapse4">
+              <div class="card card-body">
+                This is an online hackathon, so you can participate from anywhere.
+              </div>
+            </div>
+             <a data-toggle="collapse" href="#collapse9" role="button" aria-expanded="false" aria-controls="collapseExample">
+              > When do applications open?
+            </a>
+            <div class="collapse" id="collapse9">
+              <div class="card card-body">
+                  The registrations will open soon, stay tuned! </div>
+            </div>
+            <a data-toggle="collapse" href="#collapse5" role="button" aria-expanded="false" aria-controls="collapseExample">
+              > What should I bring?
+            </a>
+            <div class="collapse" id="collapse5">
+              <div class="card card-body">
+                You just need a laptop and a good internet connection.
+              </div>
+            </div>
+            <a data-toggle="collapse" href="#collapse6" role="button" aria-expanded="false" aria-controls="collapseExample">
+              > How much does this cost?
+            </a>
+            <div class="collapse" id="collapse6">
+              <div class="card card-body">
+                Absolutely nothing! This is a free hackathon.
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Single Ticket Pricing Table -->
+        <div class=" faq_container col-12 col-lg-6">
+          <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+            <h6 class="ticket-plan">FAQ </h6>
+            <!-- Ticket Icon -->
+            <a data-toggle="collapse" href="#collapse7" role="button" aria-expanded="false" aria-controls="collapseExample">
+              > Who all are eligible for the Women in Tech Track?
+            </a>
+            <div class="collapse" id="collapse7">
+              <div class="card card-body">
+                Any team consisting of at least 50% women and has a woman team leader.
+              </div>
+            </div>
+            <a data-toggle="collapse" href="#collapse8" role="button" aria-expanded="false" aria-controls="collapseExample">
+              >How many participants can there be in a Team?
+            </a>
+            <div class="collapse" id="collapse8">
+              <div class="card card-body">
+Your team should consist of 2-5 participants.              </div>
+            </div>
+           
+            <a data-toggle="collapse" href="#collapse10" role="button" aria-expanded="false" aria-controls="collapseExample">
+              > Which platform will the hackathon be conducted on?
+            </a>
+            <div class="collapse" id="collapse10">
+              <div class="card card-body">
+The hackathon will be conducted on Discord.              </div>
+            </div>
+            <a data-toggle="collapse" href="#collapse11" role="button" aria-expanded="false" aria-controls="collapseExample">
+              > Who all can participate?
+            </a>
+            <div class="collapse" id="collapse11">
+              <div class="card card-body">
+Any college student of any major! Every skill/field of study can be applied at the hackathon. Anyone with the passion for Innovation  and/or connecting the world will be a reat asset to any team.     </div>
+            </div>
+            <a data-toggle="collapse" href="#collapse12" role="button" aria-expanded="false" aria-controls="collapseExample">
+              > 404: Question not found
+            </a>
+            <div class="collapse" id="collapse12">
+              <div class="card card-body">
+Please email iete@vit.ac.in if you have any questions! We'd love to hear from you.            </div>
+            
+           
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Our Ticket Pricing Table Area End -->
+<section id="codeofconduct" class="our-sponsor-client-areaa section-padding-100" id="sponsors">
+    <div  class="section-heading-2 text-center  fadeInUp" data-wow-delay="300ms">
+      <h4>Code of Conduct</h4>
+    </div>
+    <h4 onclick="togglePopup()" style="color: white;text-align:center; cursor:pointer; font-size: 30px;">Click to View</h4>
+     
+    
+  
+    
+  </section>
+
+  <!-- ================================map end============================================= -->
+
+  <!-- Contact Area Start -->
+  <section class="contact-our-area section-padding-100-0">
+    <div class="container">
+      <div class="row">
+        <!-- Heading -->
+        <div class="col-12">
+          <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+            <p>Have Question?</p>
+            <h4>Contact us</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-between form_contact_area">
+        <div class="col-12 col-sm-3">
+          <div class="contact-information mb-100">
+            <!-- Single Contact Info -->
+            <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+              <p>Address:</p>
+              <h6>VIT University, Vellore, Tamil Nadu-632014</h6>
+            </div>
+            <!-- Single Contact Info -->
+            <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+              <p>Phone:</p>
+              <h6>Yashraj Motwani <a href="tel:+919674943039">(+91)-9674943039</a>  </h6>
+              <h6>Rohan Mittal <a href="tel:+918754583601">(+91)-8754583601</a> </h6>
+              <h6>Manan Modi <a href="tel:+919956478477">(+91)-9956478477</a> </h6>
+            </div>
+            <!-- Single Contact Info -->
+            <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+              <p>Email:</p>
+              <a href="mailto:iete@vit.ac.in" style="text-transform: lowercase;">iete@vit.ac.in</a>
+            </div>
+            <!-- Single Contact Info -->
+            <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+              <p>Website:</p>
+              <h6> <a href="https://www.ietevit.com" style="text-transform: lowercase;">www.ietevit.com</a> </h6>
+            </div>
+          </div>
+        </div>
+
+        <div class=" contact_form_container col-12 col-sm-8" style="display:flex; align-items:center">
+          <!-- Contact Form -->
+          <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">
+            <div class="contact_form">
+              <form method="POST" id="main_contact_form">
+                <div class="contact_input_area">
+                  <div id="success_fail_info"></div>
+                  <div class="row">
+                    <!-- Form Group -->
+                    <div class="col-12 col-lg-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control mb-30" name="name" id="first_name" placeholder="Your Name">
+                      </div>
+                    </div>
+                    <!-- Form Group -->
+                    <div class="col-12 col-lg-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control mb-30" name="name" id="name2" placeholder="Last Name">
+                      </div>
+                    </div>
+                    <!-- Form Group -->
+                    <div class="col-12 col-lg-6">
+                      <div class="form-group">
+                        <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail">
+                      </div>
+                    </div>
+                    <!-- Form Group -->
+                    <div class="col-12 col-lg-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control mb-30" name="subject" id="phone" placeholder="Your Number">
+                      </div>
+                    </div>
+                    <!-- Form Group -->
+                    <div class="col-12">
+                      <div class="form-group">
+                        <textarea name="message" class="form-control mb-30" id="message" cols="30" rows="6" placeholder="Your Message *"></textarea>
+                      </div>
+                    </div>
+                    <!-- Button -->
+                    <div class="col-12">
+                      <button type="submit" class="btn confer-btn">Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- our feedback area -->
+
+       <div class="col-12">
+        <div class="our-client-area mt-100 wow fadeInUp" data-wow-delay="300ms">
+          <h4 style="color: white;text-align:center; padding-bottom:30px">Let's hear directly from our Past Participants</h4>
+          <!-- client Slider -->
+          <div class="client-area owl-carousel">
+            <!-- Single client Slider -->
+            <div class="single-client-content">
+              <!-- Single client Text -->
+              <div class="single-client-text">
+                <p>It was one of the best hackathon in VIT organized by an amazing team of IETE-ISF.</p>
+                <!-- Single client Thumb and info -->
+                <div class="single-client-thumb-info d-flex align-items-center">
+                  
+                  <!-- Single client Info -->
+                  <div class="client-info">
+                    <h6>Aditya Sinha</h6>
+                    <p>Overall Hack Winner</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Single client Icon -->
+              <div class="client-icon">
+                <i class="zmdi zmdi-quote"></i>
+              </div>
+            </div>
+
+            <!-- Single client Slider -->
+            <div class="single-client-content">
+              <!-- Single client Text -->
+              <div class="single-client-text">
+                <p>It was my first hack-a-thon at VIT and definitely a memorable one.I was
+                given a great platform to pitch my idea under the "Open Innovation" category of Access Denied and winning it only
+                encouraged me to pursue the idea with more dedication.</p>
+               
+                <!-- Single client Thumb and info -->
+                <div class="single-client-thumb-info d-flex align-items-center">
+                 
+                  <!-- Single client Info -->
+                  <div class="client-info">
+                    <h6>Sravan R</h6>
+                    <p>Overall Hack Runner Up</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Single client Icon -->
+              <div class="client-icon">
+                <i class="zmdi zmdi-quote"></i>
+              </div>
+            </div>
+
+            <!-- Single client Slider -->
+            <div class="single-client-content">
+              <!-- Single client Text -->
+              <div class="single-client-text">
+                <p>It was a great hackathon, amazing problem statements and yes lots of schwags and food.
+                Learned a lot, worked over night, it all paid off.
+                
+                It was definitely a 10/10 experience overall.</p>
+                <!-- Single client Thumb and info -->
+                <div class="single-client-thumb-info d-flex align-items-center">
+                 
+                  <!-- Single client Info -->
+                  <div class="client-info">
+                    <h6>Rachit manchanda</h6>
+                    <p>Fortinet premium domain Runner Up</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Single client Icon -->
+              <div class="client-icon">
+                <i class="zmdi zmdi-quote"></i>
+              </div>
+            </div>
+
+            <!-- Single client Slider -->
+            <div class="single-client-content">
+              <!-- Single client Text -->
+              <div class="single-client-text">
+                <p>Access denied was one of most well-organized, no-hiccups hackathons I've attended. It was a fun and thrilling
+                experience.</p>
+                <!-- Single client Thumb and info -->
+                <div class="single-client-thumb-info d-flex align-items-center">
+            
+                  <!-- Single client Info -->
+                  <div class="client-info">
+                    <h6>Darsh</h6>
+                    <p>Fortinet premium domain 3rd Prize</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Single client Icon -->
+              <div class="client-icon">
+                <i class="zmdi zmdi-quote"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- our feedback area end  -->
+
+    </div>
+  </section>
+  <!-- Contact Area End -->
+
+  <!-- Footer Area Start -->
+  <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
+    <!-- Main Footer Area -->
+    <div class="main-footer-area">
+      <div class="container">
+        <div class="row">
+          <!-- Single Footer Widget Area -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
+              <!-- Footer Logo -->
+              <a href="#" class="footer-logo" style="color:white;text-transform: none;">Access<span style="color:red">Denied</span> </a>
+              
+              <p>Access Denied is a 36 hour collegiate hackathon organized by IETE-ISF VIT
+                at Vellore Institute of Technology inducing creativity and development skills.</p>
+
+              <!-- Social Info -->
+              <div class="social-info">
+                <a target="_blank" href="https://www.facebook.com/ieteisf"><i class="zmdi zmdi-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/iete_vit/"><i class="zmdi zmdi-instagram"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/iete-isf-vit/"><i class="zmdi zmdi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Footer Widget Area -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
+              <!-- Widget Title -->
+              <h5 class="widget-title">Contact</h5>
+
+              <!-- Contact Area -->
+              <div class="footer-contact-info">
+                <p><i class="zmdi zmdi-map"></i>VIT University, Vellore, Tamil Nadu-632014</p>
+                <p><i class="zmdi zmdi-phone"></i> <a style="color: #9293bc; text-transform: lowercase;" href="tel:+919674943039">(+91)-9674943039</a></p>
+                <p><i class="zmdi zmdi-email"></i> <a style="color: #9293bc; text-transform: lowercase;" href="mailto:iete@vit.ac.in">iete@vit.ac.in</a></p>
+                <p><i class="zmdi zmdi-globe"></i> <a style="color: #9293bc; text-transform: lowercase;" href="https://www.ietevit.com">www.ietevit.com</a></p>
+              </div>
+            </div>
+          </div>
+
+         
+        </div>
+      </div>
+    </div>
+
+   
+
+  </footer>
+
+
+  <!-- **** All JS Files ***** -->
+  <!-- jQuery 2.2.4 -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Popper -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- All Plugins -->
+  <script src="js/confer.bundle.js"></script>
+  <!-- Active -->
+  <script src="js/default-assets/active.js"></script>
+  <!-- ================================script for scrollbar==================== -->
+  <script type="text/javascript">
+    let progress = document.getElementById("progressbar");
+    let totalheight = document.body.scrollHeight - window.innerHeight;
+
+    window.onscroll = function() {
+      let progressHeight = (window.pageYOffset / totalheight) * 100;
+      progress.style.width = progressHeight + "%";
+    }
+  </script>
+
+<script src="./js/jquery.countdown.min.js"></script>
+<script>
+  $(function () {
+      $(".demo").countdown({
+        startTime: "10:10",
+        endTime: '50:00' // or a data object
+      });
+    });
+    $(function () {
+        $(".demo").countdown({
+          startTime: "10:10",
+          endTime: '50:00',
+          timerEnd: function () { alert('end!!'); },
+        });
+      });
+      $(".demo").countdown({
+
+          // 60s
+          stepTime: 60,
+
+          // custom date format
+          format: "dd:hh:mm:ss",
+
+          // start/end time
+          startTime: "01:12:32:55",
+
+          // digit options
+          image: "digits.png",
+          digitImages: 6,
+          digitWidth: 67,
+          digitHeight: 90,
+
+          // callback
+          timerEnd: function () { },
+
+          // continuous countdown?
+          continuous: false,
+
+          // start the countdown on page load?
+          start: true
+
+        });
+</script>
+<script>
+  let previous_sponsors = $("#previous_sponsors")
+   $("#previous_sponsors").hide()
+  function sponsorShow(){
+    if($("#previous_sponsors").is(':visible')){
+      $("#previous_sponsors").hide()
+    }else{
+      $("#previous_sponsors").show()
+    }
+    
+  }
+</script>
+ <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+  
+  <script src="./js/nav-color.js"></script>
+  <script type="text/javascript">
+    function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
+  </script>
+
+  <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+    let devfolioOptions = {
+        buttonSelector: '#devfolio-apply-now',
+        key: 'accessdenied',
+    }
+
+    let script = document.createElement('script');
+    script.src = "https://apply.devfolio.co";
+    document.head.append(script);
+
+    script.onload = function () {
+        new Devfolio(devfolioOptions);
+    }
+
+    script.onerror = function () {
+        document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+        });
+    }
+});
+  </script>
+</body>
+
+</html>
