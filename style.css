@@ -1663,6 +1663,8 @@ input:requ#EF2F3C {
   position: relative;
   z-index: 1;
   background-color: #000000;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .footer-area .row {
@@ -3855,8 +3857,12 @@ input:requ#EF2F3C {
 .our-ticket-pricing-table-area .row {
   margin-right: -30px;
   margin-left: -30px;
-  margin:70px
+  
 }
+.spks{
+margin:70px;
+}
+
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .our-ticket-pricing-table-area .row {
