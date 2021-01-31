@@ -1220,7 +1220,7 @@ input:requ#EF2F3C {
 
 @media only screen and (max-width: 767px) {
   .classy-nav-container .classy-navbar .nav-brand {
-    max-width: 90px;
+    max-width: 100%;
     margin-right: 15px;
   }
 }
@@ -3892,13 +3892,10 @@ section .intro .project-title{
 }
 
 .our-ticket-pricing-table-area .row {
-  margin-right: -30px;
-  margin-left: -30px;
+margin:30px;
   
 }
-.spks{
-margin:70px;
-}
+
 
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
