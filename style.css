@@ -72,24 +72,27 @@ $star: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32%
 }
 
 .days {
-  background: #EF2F3C;
+  background: #CD46B7;
   text-align: center;
+  color: #fff;
 }
 
 .hours {
-  background: #F6F4F3;
-  color: #183059;
+  background: #BA48BC;
+  color: #fff;
   text-align: center;
 }
 
 .minutes {
-  background: cyan;
+  background: #9C4DC6;
   text-align: center;
+  color: #fff;
 }
 
 .seconds {
-  background: #F0A202;
+  background: #8851CC;
   text-align: center;
+  color: #fff;
   .numbers {
    
   }
@@ -97,7 +100,7 @@ $star: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32%
 
 .numbers {
   font-family: $big;
-  color: #183059;
+  color: #fff;
   font-size: 3em;
 }
 
@@ -469,7 +472,7 @@ hr{
   left: 0;
   z-index: -1;
   background-color: #000000;
-  background-image: linear-gradient(180deg, #000000 90%, #434343 100%);
+  background-image: linear-gradient(180deg, #000000 47%, #151515 100%);
   opacity: 1;
 }
 
@@ -508,7 +511,7 @@ hr{
 }
 .jumbotron{
   background-color: #000000;
-  background-image: linear-gradient(180deg, #000000 80%, #434343 100%);
+  background-image: linear-gradient(180deg, #000000 47%, #151515 100%);
   padding-bottom: 40px;
   margin: 0
    
@@ -1108,6 +1111,9 @@ input:requ#EF2F3C {
 
 .confer-btn-white i {
   margin-left: 5px;
+}
+.cond{
+  margin-left: 600px;
 }
 
 .confer-btn-white:hover, .confer-btn-white:focus {
@@ -3464,6 +3470,7 @@ section .intro .project-title{
   color: #ffffff;
   margin-bottom: 20px;
   font-weight: 300;
+  margin-left: 17px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3495,6 +3502,7 @@ section .intro .project-title{
   color: #ffffff;
   font-size: 18px;
   margin-bottom: 0;
+  margin-left: 17px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4052,7 +4060,7 @@ background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
   position: relative;
   z-index: 1;
   background-color: #000000;
-  background-image: linear-gradient(180deg, #000000 85%, #434343 100%);
+  background-image: linear-gradient(180deg, #000000 47%, #151515 100%);
   text-align: left;
 
 
