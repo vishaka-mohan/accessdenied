@@ -1,7 +1,7 @@
 /* ------------------------------------------
 [Master Stylesheet]
 
-Template Name: Confer - Conference Event HTML Template
+Template Name: onfer - Conference Event HTML Template
 Template Author: Colorlib
 Template Author URL: http://colorlib.com
 Version: 1.0.0
@@ -1224,6 +1224,43 @@ input:requ#EF2F3C {
     margin-right: 15px;
   }
 }
+section .intro .project-title{
+  opacity: 0;
+  transition: all 0.5s;
+  transform:translateY(2rem);
+  transition-delay: 0.2s;
+}
+
+.section .intro .project-row:nth-child(2) .project-title{
+  transition-delay: 0.4s;
+}
+
+.section .intro .project-row:nth-child(3) .project-title{
+  transition-delay: 0.6s;
+}
+
+.section .intro .project-row:nth-child(4) .project-title{
+  transition-delay: 0.8s;
+}
+
+.section.active .intro .project-title{
+  transform:none;
+  opacity: 1;
+  transform:translateY(0);
+}
+.title{
+  letter-spacing: -0.025em;
+  line-height: 1.33333;
+  margin:0 0 3rem;
+}
+
+.text-primary{
+  color:#c32865!important;
+}
+.row-partners{
+  margin:0 -5rem 0;
+}
+
 
 .classy-nav-container .classy-navbar .classynav ul li a {
   font-size: 16px;
@@ -4036,8 +4073,8 @@ background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
   -webkit-box-flex: 0;
   -ms-flex: 0 0 25%;
   flex: 0 0 25%;
-  max-width: 25%;
-  width: 25%;
+  max-width: 33%;
+  width: 33%;
   height: 240px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4798,3 +4835,108 @@ h1 {
 #devfolio-apply-now:hover {
     background-color: #2954BF !important;
 }
+.pagepiling .pp-scrollable{
+  padding: 0;
+  overflow-x:hidden;
+}
+
+.pp-scrollable .vertical-centred{
+  padding-top: 10.3rem;
+  padding-bottom: 6rem;
+}
+
+.pp-scrollable .vertical-centred.v2{
+  padding-top:6rem;
+  padding-bottom: 9rem;
+}
+.scroll-wrap{
+  position: relative;
+  min-height: 100%;
+}
+.scrollable-content{
+  white-space: nowrap;
+  width: 100%;
+  font-size: 0;
+}
+
+.scrollable-content:before{
+  content: '';
+  display: inline-block;
+  height: 100vh;
+  vertical-align: middle;
+}
+
+.vertical-title{
+  position: absolute;
+  text-align: center;
+  font-weight: 600;
+  opacity: 0.05;
+  font-size:9rem;
+  top: 50%;
+  left:8rem;
+  transform: translateY(-50%);
+}
+
+.vertical-title span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.5s 0.6s;
+  white-space: nowrap;
+  letter-spacing: 2.5rem;
+}
+
+.section.active .vertical-title span{
+  letter-spacing: 0;
+  opacity: 1;
+}
+.text-white{
+  color: #fff;
+}
+.pp-scrollable .vertical-centred{
+  padding-top: 10.3rem;
+  padding-bottom: 6rem;
+}
+
+.pp-scrollable .vertical-centred.v2{
+  padding-top:6rem;
+  padding-bottom: 9rem;
+}
+.vertical-centred{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  font-size: 1rem;
+}
+.section-3 .vertical-centred{
+  padding-top:6rem;
+
+  
+.boxed{
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+}
+.boxed-inner{
+  position: relative;
+  padding:0;
+}
+
+.col-partner{
+  padding:0 5rem;
+  margin-top: 5rem;
+  text-align: center;
+  transition:all 0.7s;
+  opacity: 0;
+}
+.row-partners{
+  margin:0 -5rem 0;
+}
+.text-primary{
+  color:#c32865!important;
+}
+
