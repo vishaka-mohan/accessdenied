@@ -108,7 +108,7 @@ $star: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32%
 @media (min-width: 992px) and (max-width: 1199px) {
   .numbers {
     font-family: $big;
-    color: #183059;
+    color: #fff;
     font-size: 4em;
 
   }
@@ -124,7 +124,7 @@ $star: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32%
 @media (max-width: 991px) {
   .numbers {
     font-family: $big;
-    color: #183059;
+    color: #fff;
     font-size: 3em;
 
   }
@@ -141,7 +141,7 @@ $star: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32%
 @media (min-width: 768px) and (max-width: 991px) {
   .numbers {
     font-family: $big;
-    color: #183059;
+    color: #fff;
     font-size: 2em;
 
   }
@@ -157,13 +157,13 @@ $star: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32%
 @media (max-width: 767px) {
  .numbers {
     font-family: $big;
-    color: #183059;
+    color: #fff;
     font-size: 2em;
 
   }
   .timetext{
     
-    color: #183059;
+    color: #fff;
     font-size: 0.5em;
   }
   .days, .hours, .minutes, .seconds {
@@ -177,13 +177,13 @@ $star: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32%
 @media (min-width: 401px) and (max-width: 500px) {
   .numbers {
     font-family: $big;
-    color: #183059;
+    color: #fff;
     font-size: 1.5em;
 
   }
   .timetext{
     
-    color: #183059;
+    color: #fff;
     font-size: 0.5em;
   }
   .days, .hours, .minutes, .seconds {
@@ -200,13 +200,13 @@ $star: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32%
 @media (min-width: 200px) and (max-width: 400px) {
   .numbers {
     font-family: $big;
-    color: #183059;
+    color: #fff;
     font-size: 1.5em;
 
   }
   .timetext{
     
-    color: #183059;
+    color: #fff;
     font-size: 0.5em;
   }
   .days, .hours, .minutes, .seconds {
@@ -982,7 +982,7 @@ input:requ#EF2F3C {
   z-index: 1;
   height: 46px;
   line-height: 46px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   border: none;
   display: inline-block;
@@ -1021,8 +1021,8 @@ input:requ#EF2F3C {
 
 .confer-btn:focus, .confer-btn:hover {
   font-weight: 500;
-  background-color: #ffffff;
-  color: #111343 !important;
+  background-color: steelblue;
+  color: #ffffff !important;
   -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
   box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
 }
@@ -1286,25 +1286,25 @@ section .intro .project-title{
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .classy-nav-container .classy-navbar .classynav ul li a {
     font-size: 14px;
-    color: #111343;
+    color: #111343 ;
   }
 
   .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
-    color: #df42b1;
+    color: #df42b1 ;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .classy-nav-container .classy-navbar .classynav ul li a {
     font-size: 14px;
-    color: #111343;
+    color: #111343 ;
   }
 
   .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
-    color: #df42b1;
+    color: #df42b1 ;
   }
 }
 
@@ -3658,7 +3658,7 @@ section .intro .project-title{
 
 .our-schedule-area .schedule-tab .nav-tabs .nav-item:last-child .nav-link {
   border-right: none;
-  
+  float: left;
 }
 
 .single-schedule-area {
